@@ -11,7 +11,7 @@ include $(CONFIG_ENV)
 all: build
 .PHONY: all
 
-WEBAPP_DIR := ./lex-web-ui
+WEBAPP_DIR := ./aws-lex-web-ui-master
 BUILD_DIR := build
 DIST_DIR := dist
 SRC_DIR := src

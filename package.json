@@ -1,11 +1,11 @@
 {
-  "name": "aws-lex-web-ui",
+  "name": "aws-lex-web-ui-master",
   "version": "0.14.4",
   "description": "Sample Amazon Lex Web Interface",
   "main": "dist/lex-web-ui.min.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/awslabs/aws-lex-web-ui.git"
+    "url": "git+https://github.com/awslabs/aws-lex-web-ui-master.git"
   },
   "keywords": [
     "aws",
@@ -19,9 +19,9 @@
   "author": "AWS",
   "license": "SEE LICENSE IN LICENSE",
   "bugs": {
-    "url": "https://github.com/awslabs/aws-lex-web-ui/issues"
+    "url": "https://github.com/awslabs/aws-lex-web-ui-master/issues"
   },
-  "homepage": "https://github.com/awslabs/aws-lex-web-ui#readme",
+  "homepage": "https://github.com/awslabs/aws-lex-web-ui-master#readme",
   "scripts": {
     "build-prod": "webpack -p --env production",
     "build-dev": "webpack --hide-modules",

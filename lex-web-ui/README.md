@@ -40,7 +40,7 @@ You can import the library as a module and use it in your code:
   import Vuetify from 'vuetify';
 
   // import the component constructor
-  import { Loader as LexWebUi } from 'aws-lex-web-ui';
+  import { Loader as LexWebUi } from 'aws-lex-web-ui-master-master';
 
   Vue.use(Vuetify);
   Vue.use(Vuex);
@@ -87,7 +87,7 @@ You can import the library as a module and use it in your code:
     @import 'node_modules/roboto-fontface/css/roboto/roboto-fontface.css';
     @import 'node_modules/material-design-icons/iconfont/material-icons.css';
     @import 'node_modules/vuetify/dist/vuetify.min.css';
-    @import 'node_modules/aws-lex-web-ui/dist/lex-web-ui.css';
+    @import 'node_modules/aws-lex-web-ui-master/dist/lex-web-ui.css';
   */
 ```
 
@@ -102,7 +102,7 @@ in your application:
   import LexRuntime from 'aws-sdk/clients/lexruntime';
   import Polly from 'aws-sdk/clients/polly';
 
-  import { Plugin as LexWebUi, Store as LexWebUiStore } from 'aws-lex-web-ui';
+  import { Plugin as LexWebUi, Store as LexWebUiStore } from 'aws-lex-web-ui-master';
 
   Vue.use(Vuex);
   Vue.use(Vuetify);
@@ -144,7 +144,7 @@ in your application:
     @import 'node_modules/roboto-fontface/css/roboto/roboto-fontface.css';
     @import 'node_modules/material-design-icons/iconfont/material-icons.css';
     @import 'node_modules/vuetify/dist/vuetify.min.css';
-    @import 'node_modules/aws-lex-web-ui/dist/lex-web-ui.css';
+    @import 'node_modules/aws-lex-web-ui-master/dist/lex-web-ui.css';
   */
 ```
 
