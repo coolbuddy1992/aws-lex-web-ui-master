@@ -1,0 +1,22 @@
+{
+  "cognito": {
+    "poolId": "us-east-1:f634ebd3-27ae-49eb-b4cd-2507093eb450"
+  },
+  "lex": {
+    "botName": "WebUiHousejoyServices",
+    "initialText": "You can ask me for help housejoy services. Just type \"housejoy services\" or click on the mic and say it.",
+    "initialSpeechInstruction": "Say 'Housejoy Services' to get started."
+  },
+  "polly": {
+    "voiceId": "Salli"
+  },
+  "ui": {
+    "parentOrigin": "http://localhost:8080",
+    "pageTitle": "Housejoy Services Bot",
+    "toolbarTitle": "Housejoy Services",
+    "enableLogin": true
+  },
+  "recorder": {
+    "preset": "speech_recognition"
+  }
+}

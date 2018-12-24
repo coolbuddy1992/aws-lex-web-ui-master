@@ -1,0 +1,36 @@
+{
+  "cognito": {
+    "poolId": "us-east-1:389f9063-82a0-4a8c-bdc3-3bbb4c3d36d0",
+    "appUserPoolClientId": "",
+    "appUserPoolName": "",
+    "appDomainName": "",
+    "appUserPoolIdentityProvider": ""
+  },
+  "lex": {
+    "botName": "HousejoyServices",
+    "botAlias": "$LATEST",
+    "initialText": "You can ask me for help housejoy services. Just type \"Housejoy Services\" or click on the mic and say it.",
+    "initialSpeechInstruction": "Say 'Housejoy Services' to get started.",
+    "reInitSessionAttributesOnRestart": false
+  },
+  "ui": {
+    "parentOrigin": "",
+    "toolbarTitle": "Housejoy Services",
+    "toolbarLogo": "",
+    "enableLogin": false,
+    "AllowSuperDangerousHTMLInMessage": false,
+    "shouldDisplayResponseCardTitle": false,
+    "pushInitialTextOnRestart": false
+  },
+  "polly": {
+    "voiceId": "Salli"
+  },
+  "recorder": {
+    "preset": "speech_recognition"
+  },
+  "iframe": {
+    "iframeOrigin": "",
+    "shouldLoadIframeMinimized": false,
+    "iframeSrcPath": "/index.html#/?lexWebUiEmbed=true"
+  }
+}
